@@ -22,21 +22,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 
-% Uncomment the font you want to use
-
-% \usepackage{avant} % Avant Garde
-% \renewcommand{\familydefault}{\sfdefault}
-
-% \usepackage{cmbright} % Computer Modern Bright
-% \renewcommand{\familydefault}{\sfdefault}
-
-% \usepackage{tgheros} % TeX Gyre Heros (similar to Helvetica)
-% \renewcommand{\familydefault}{\sfdefault}
-
-% \usepackage{quattrocento}
-% \renewcommand{\familydefault}{\sfdefault}
-
-% 
+% Font Formatting
 \usepackage{helvet} % Arial-like font
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{sansmathfonts} % Sans-serif math fonts
@@ -158,11 +144,11 @@
 
 \newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
  {\bf #1} \hfill {#2} % Bold company name and date on the right
- \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
+ \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location
   \\
   {\em #3} \hfill {\em #4} % Italic job title and location
   }\smallskip
-  \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+  \begin{list}{$\cdot$}{\leftmargin=1em} % \cdot used for bullets, 1em indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
   \end{list}
