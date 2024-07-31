@@ -32,12 +32,24 @@
 
 % Hyperref setup
 \hypersetup{
-    colorlinks=true, % Enables coloring of links
-    urlcolor=linkblue, % Color of URLs
-    linkcolor=black, % Color of internal links (set to black to match regular text)
-    filecolor=black, % Color of file links (set to black to match regular text)
-    citecolor=black, % Color of citation links (set to black to match regular text)
-    pdfborder={0 0 0}, % Removes border around links
+    colorlinks=true,
+    urlcolor=linkblue,
+    linkcolor=black,
+    filecolor=black,
+    citecolor=black,
+    pdfborder={0 0 0},
+    breaklinks=true,
+    pdfnewwindow=true,
+    bookmarks=true,
+    bookmarksopen=true,
+    pdftex=true,
+    pdfpagelabels=false,
+    pdfdisplaydoctitle=true,
+    pdfcreator={LaTeX with hyperref package}
+    pdftitle={wozak_resume},
+    pdfauthor={Ben Wozak},
+    pdfsubject={Resume},
+    pdfkeywords={resume, Benjamin Wozak, Software Developer}
 }
 
 % Define custom color for links
