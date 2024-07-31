@@ -17,6 +17,7 @@
 \usepackage{hyperref} % Required for hyperlinks
 \usepackage{fontawesome5} % Required for social media icons
 \usepackage{xcolor} % Required for custom colors
+\usepackage{hyperref} % Required for hyperlinks
 
 % Font packages
 \usepackage[T1]{fontenc}
